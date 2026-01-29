@@ -2,9 +2,6 @@ import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class SS5_Test {
-    public static void addMSSV(String[] MSSV){
-
-    }
     public static void main(String[] args) {
         String[] MSSV= new String[100];
         int count = 0;
@@ -143,3 +140,4 @@ public class SS5_Test {
 
     }
 }
+
