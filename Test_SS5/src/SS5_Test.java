@@ -88,7 +88,7 @@ public class SS5_Test {
                     }
                     System.out.print("Nhập MSSV cần xóa: ");
                     String delMSSV = sc.nextLine().trim().toUpperCase();
-                    int indexDel = 0;
+                    int indexDel = -1;
                     for (int i = 0; i < count; i++) {
                         if (delMSSV.equals(MSSV[i])) {
                             indexDel = i;
@@ -96,7 +96,7 @@ public class SS5_Test {
                         }
                     }
 
-                    if (indexDel == 0) {
+                    if (indexDel == -1) {
                         System.out.println("Không tìm thấy MSSV");
                         break;
                     }
@@ -140,4 +140,5 @@ public class SS5_Test {
 
     }
 }
+
 
